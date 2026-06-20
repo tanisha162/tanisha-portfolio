@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tanisha Gupta | Software Developer & AI Enthusiast</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+<nav>
+    <div class="logo">Tanisha Gupta</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <div class="photo-wrap">
+        <img src="photo.jpg" alt="Tanisha Gupta" class="photo">
+    </div>
+
+    <div class="hero-content">
+
+        <h1>Hi, I'm <span>Tanisha Gupta</span></h1>
+
+        <h3 id="typing"></h3>
+
+        <p>
+            B.Tech Computer Science student at Jaypee University Anoopshahr.
+            Passionate about Artificial Intelligence, Machine Learning,
+            Full Stack Development and Data Structures & Algorithms.
+        </p>
+
+        <div class="buttons">
+            <a href="resume.pdf" download class="btn">Download Resume</a>
+
+            <a href="https://github.com/tanisha162"
+               target="_blank"
+               class="btn">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/tanisha-gupta162"
+               target="_blank"
+               class="btn">
+                LinkedIn
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2>Professional Summary</h2>
+
+    <div class="card">
+
+        <p>
+            Computer Science undergraduate with hands-on experience
+            building full-stack web applications and integrating AI models.
+            Proven track record of developing functional digital solutions
+            with real-time databases and automation frameworks.
+            Passionate about optimizing Data Structures & Algorithms
+            and collaborating in high-impact environments.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="skills">
+
+    <h2>Technical Skills</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Languages</h3>
+            <p>Python, C++, C, JavaScript, SQL</p>
+        </div>
+
+        <div class="card">
+            <h3>AI & Databases</h3>
+            <p>Dlib, Scikit-Learn, face_recognition_models, Supabase (Cloud DB)</p>
+        </div>
+
+        <div class="card">
+            <h3>Web Technologies</h3>
+            <p>HTML5, CSS3, DOM Manipulation</p>
+        </div>
+
+        <div class="card">
+            <h3>Platforms & Tools</h3>
+            <p>VS Code, Git, GitHub, AWS Cloud Fundamentals</p>
+        </div>
+
+        <div class="card">
+            <h3>Core Competencies</h3>
+            <p>Data Structures & Algorithms, Object-Oriented Programming (OOP)</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>SnapClass</h3>
+
+            <p>
+                AI Smart Attendance System using Streamlit,
+                Supabase and Dlib.
+            </p>
+
+            <br>
+
+            <p>
+                Designed and developed a web-based attendance
+                management platform leveraging Python, Streamlit,
+                Supabase and Dlib.
+            </p>
+
+            <br>
+
+            <p>
+                Integrated real-time database functionality
+                to enhance administrative efficiency and user experience.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Expense Tracker</h3>
+
+            <p>
+                Django-based expense management application
+                with analytics dashboard and expense tracking features.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Analog Clock</h3>
+
+            <p>
+                Built using HTML, CSS and JavaScript.
+            </p>
+
+            <br>
+
+            <p>
+                Implemented real-time synchronization and dynamic
+                DOM updates to ensure accurate functionality
+                across devices.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <div class="card">
+
+        <p>Email: gtanisha162@gmail.com</p>
+
+        <br>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/tanisha162" target="_blank">
+                github.com/tanisha162
+            </a>
+        </p>
+
+        <br>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/tanisha-gupta162" target="_blank">
+                linkedin.com/in/tanisha-gupta162
+            </a>
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026Tanisha Gupta
+</footer>
+
+<script>
+
+const text =
+"Building Intelligent Web Applications with AI & Cloud Technologies";
+
+let i = 0;
+
+function typeEffect() {
+    if(i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeEffect, 50);
+    }
+}
+
+typeEffect();
+
+</script>
+
+</body>
+</html>
+```
